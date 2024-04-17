@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS phrases_db;
+USE phrases_db;
+
+CREATE TABLE IF NOT EXISTS phrases (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    phrase VARCHAR(255)
+);
